@@ -1,7 +1,9 @@
+@use './common' as *;
+
 body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background-color: #ffc;
+	background-color: $pink;
 	height: 100vh;
 }
